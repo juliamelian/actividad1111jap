@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 encabezadoResultado.innerHTML = resultado.innerHTML = `EL CÓDIGO POSTAL DE ${localidadEncontrada.nombre.toUpperCase()} (${departamento.toUpperCase()}) ES:`
                 resultado.innerHTML = `${codigoPostal}`;
             } else {
+                divEncabezado.setAttribute("hidden", true);
                 resultado.innerHTML = `LOCALIDAD NO ENCONTRADA EN EL DEPARTAMENTO ${departamento.toUpperCase()}.`;
             }
         } catch (error) {
