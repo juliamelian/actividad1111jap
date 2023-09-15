@@ -1,0 +1,20 @@
+.bodypropio {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+#titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+#encabezado-resultado, #resultado {
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+#imagen {
+    display: flex;
+    justify-content: center;
+    image-orientation:initial;
+}
